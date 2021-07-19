@@ -1,0 +1,15 @@
+{
+    "name": "Simple youtube downloader",
+    "description": "A simple way to download youtube videos",
+    "version": "0.1",
+    "author": "Bryan",
+    "manifest_version": 2,
+    "web_accessible_resources": ["src/youtubedl.js"],
+    "content_scripts": [
+        {
+            "matches": ["https://www.youtube.com/watch*"],
+            "js": ["src/loader.js"],
+            "css": ["src/youtubedlstyles.css"]
+        }
+    ]
+}
