@@ -11,5 +11,11 @@
             "js": ["src/loader.js"],
             "css": ["src/youtubedlstyles.css"]
         }
-    ]
+    ],
+    "permissions": [
+        "downloads"
+    ],
+    "background": {
+        "scripts": ["src/background.js"]
+    }
 }

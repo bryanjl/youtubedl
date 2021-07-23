@@ -6,14 +6,22 @@
 #dropdown-list {
     height: 100px;
     width: 100px;
-    /* display: none; */
-    /* position: absolute;
-    top: 0;
-    left: 0; */
+    /* visibility: hidden; */
     background-color: pink;
     z-index: 99999;
 }
 
 .show {
-    display: inline-block;
+    visibility: visible;
+}
+
+#dropdown-list ul {
+    list-style: none;
+    margin: 5px;
+    
+}
+
+#link {
+    margin: 5px;
+    text-decoration: none;
 }
